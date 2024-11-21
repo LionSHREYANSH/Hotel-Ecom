@@ -1,0 +1,22 @@
+# General ignores
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+
+# Frontend-specific ignores
+learn/node_modules/
+learn/dist/
+learn/.env
+
+# Backend-specific ignores
+api/node_modules/
+api/build/
+api/.env
+
+# Ignore editor and OS-specific files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
